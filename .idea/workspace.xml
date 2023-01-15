@@ -5,16 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f8b758a-b996-41c2-978e-623c5f093d0a" name="Changes" comment="feat: 1.初始化仓库&#10;&#10;1.初始化仓库">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/con/mloine/ch1/DemoStart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
     <option name="recentBranches">
       <RecentBranches>
         <option name="branchesForRepo">
@@ -66,10 +73,24 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "configurable.group.editor",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.DemoStart">
+    <configuration name="DemoStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="con.mloine.ch1.DemoStart" />
+      <module name="mloine-algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="con.mloine.ch1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="con.mloine.Main" />
       <module name="mloine-algorithm" />
@@ -85,6 +106,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DemoStart" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -97,7 +119,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673795316730</updated>
-      <workItem from="1673795318019" duration="607000" />
+      <workItem from="1673795318019" duration="990000" />
+      <workItem from="1673796326502" duration="805000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 1.初始化仓库&#10;&#10;1.初始化仓库">
       <created>1673795596364</created>
@@ -106,7 +129,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673795596364</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: 1.初始化仓库&#10;&#10;1.初始化仓库">
+      <created>1673795933635</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673795933635</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: 1.初始化仓库&#10;&#10;1.初始化仓库">
+      <created>1673795953239</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673795953239</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
