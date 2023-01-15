@@ -35,5 +35,8 @@ public class Demo2 {
         int[] a = {1, 2, 3, 4, 5, 6};
         Arrays.sort(a);
         System.out.println(rank(4, a));
+
+//        System.out.println(1.0/0.0);
+//        System.out.println(Math.abs(-2147483648));
     }
 }
