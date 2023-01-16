@@ -5,13 +5,12 @@ import java.util.Iterator;
 /**
  * @Author: mloine
  * @Date: 2023-01-17-01:40
- * @Description: 基于链表实现的栈
+ * @Description: 基于链表实现的背包
  * 1. 所需空间和集合大小成正比
  */
-public class Stack<Item> implements Iterable<Item> {
+public class Bag<Item> implements Iterable<Item> {
 
     private Node first;
-
     private int N;
 
     public boolean isEmpty() {
@@ -22,7 +21,8 @@ public class Stack<Item> implements Iterable<Item> {
         return N;
     }
 
-    public void push(Item item) {
+
+    public void add(Item item) {
         Node oldFirst = first;
         first = new Node();
         first.item = item;
@@ -30,24 +30,6 @@ public class Stack<Item> implements Iterable<Item> {
         N++;
     }
 
-    public Item pop() {
-        Item result = first.item;
-        first = first.next;
-        N--;
-        return result;
-    }
-
-    @Override
-    public Iterator<Item> iterator() {
-        return new ListIterator();
-    }
-
-    public class Node {
-
-        Item item;
-        Node next;
-
-    }
 
     private class ListIterator implements Iterator<Item> {
 
@@ -64,5 +46,17 @@ public class Stack<Item> implements Iterable<Item> {
             current = current.next;
             return item;
         }
+    }
+
+    @Override
+    public Iterator<Item> iterator() {
+        return new ListIterator();
+    }
+
+    public class Node {
+
+        Item item;
+        Node next;
+
     }
 }
