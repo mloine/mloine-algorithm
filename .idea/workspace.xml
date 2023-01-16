@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f8b758a-b996-41c2-978e-623c5f093d0a" name="Changes" comment="feat: 1.二分查找例子&#10;&#10;1.二分查找例子">
+      <change afterPath="$PROJECT_DIR$/src/main/java/con/mloine/ch1/sdt/FixedCapacityStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/con/mloine/ch1/sdt/FixedCapacityStackOfString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/con/mloine/ch1/sdt/ResizingArrayStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/con/mloine/ch1/Demo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/con/mloine/ch1/Demo2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +80,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Demo2">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="con.mloine.ch1.sdt" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.FixedCapacityStack">
     <configuration name="Demo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="con.mloine.ch1.Demo2" />
       <module name="mloine-algorithm" />
@@ -104,6 +112,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FixedCapacityStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="con.mloine.ch1.sdt.FixedCapacityStack" />
+      <module name="mloine-algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="con.mloine.ch1.sdt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="con.mloine.Main" />
       <module name="mloine-algorithm" />
@@ -119,6 +140,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FixedCapacityStack" />
         <item itemvalue="Application.Demo2" />
         <item itemvalue="Application.DemoStart" />
         <item itemvalue="Application.Main" />
@@ -134,7 +156,7 @@
       <option name="presentableId" value="Default" />
       <updated>1673795316730</updated>
       <workItem from="1673795318019" duration="990000" />
-      <workItem from="1673796326502" duration="2851000" />
+      <workItem from="1673796326502" duration="7362000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 1.初始化仓库&#10;&#10;1.初始化仓库">
       <created>1673795596364</created>
@@ -171,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673798731409</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: 1.二分查找例子&#10;&#10;1.二分查找例子">
+      <created>1673799656673</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1673799656673</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
