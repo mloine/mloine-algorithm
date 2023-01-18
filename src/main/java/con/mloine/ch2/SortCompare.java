@@ -16,6 +16,7 @@ public class SortCompare {
     static HashMap<String, SortConsumer> operations = new HashMap<>() {{
         put("Selection", new SortConsumer(new SelectionSort()));
         put("Insertion", new SortConsumer(new InsertionSort()));
+        put("Shell", new SortConsumer(new ShellSort()));
     }};
 
 
@@ -63,10 +64,11 @@ public class SortCompare {
 
     public static void main(String[] args) {
 
-        String alg1 = "Selection";
+        //String alg1 = "Selection";
+        String alg1 = "Shell";
         String alg2 = "Insertion";
-        int N = 10000;
-        int T = 100;
+        int N = 1000000;
+        int T = 1;
 
         double t1 = timeRandomInput(alg1, N, T);
         double t2 = timeRandomInput(alg2, N, T);

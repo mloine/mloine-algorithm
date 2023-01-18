@@ -16,9 +16,11 @@ public class Test {
         AbstractSort st;
 
         //st = new SelectionSort();
-        st = new InsertionSort();
+        //st = new InsertionSort();
+        st = new ShellSort();
 
         st.sort(a);
+        st.show(a);
 
         assert st.isSorted(a);
 

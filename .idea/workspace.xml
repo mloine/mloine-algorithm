@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f8b758a-b996-41c2-978e-623c5f093d0a" name="Changes" comment="feat: 1. 插入排序实现 并提供不同排序的耗时比较&#10;&#10;1.插入排序实现 并提供不同排序的耗时比较">
+    <list default="true" id="7f8b758a-b996-41c2-978e-623c5f093d0a" name="Changes" comment="fix: 1. 移除main文件 统一format文件&#10;&#10;fix: 1. 移除main文件 统一format文件">
+      <change afterPath="$PROJECT_DIR$/src/main/java/con/mloine/ch2/ShellSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/con/mloine/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/con/mloine/ch1/Demo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/con/mloine/ch1/Demo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/con/mloine/ch1/unionfind/AbstractUF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/con/mloine/ch1/unionfind/AbstractUF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/con/mloine/ch2/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/con/mloine/ch2/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/con/mloine/ch2/SortCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/con/mloine/ch2/SortCompare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/con/mloine/ch2/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/con/mloine/ch2/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,8 +157,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.SortCompare" />
-        <item itemvalue="Application.SortCompare (1)" />
         <item itemvalue="Application.con.mloine.ch2.Test" />
+        <item itemvalue="Application.SortCompare (1)" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.UF" />
       </list>
@@ -172,7 +173,7 @@
       <option name="presentableId" value="Default" />
       <updated>1673795316730</updated>
       <workItem from="1673795318019" duration="990000" />
-      <workItem from="1673796326502" duration="28471000" />
+      <workItem from="1673796326502" duration="31773000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 1.初始化仓库&#10;&#10;1.初始化仓库">
       <created>1673795596364</created>
@@ -258,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674046788185</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="fix: 1. 移除main文件 统一format文件&#10;&#10;fix: 1. 移除main文件 统一format文件">
+      <created>1674047189777</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1674047189777</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,14 +282,15 @@
     <MESSAGE value="feat: 1. union-find算法的各种实现&#10;&#10;1. union-find算法的各种实现" />
     <MESSAGE value="feat: 1. 选择排序实现&#10;&#10;1. 选择排序实现" />
     <MESSAGE value="feat: 1. 插入排序实现 并提供不同排序的耗时比较&#10;&#10;1.插入排序实现 并提供不同排序的耗时比较" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 1. 插入排序实现 并提供不同排序的耗时比较&#10;&#10;1.插入排序实现 并提供不同排序的耗时比较" />
+    <MESSAGE value="fix: 1. 移除main文件 统一format文件&#10;&#10;fix: 1. 移除main文件 统一format文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: 1. 移除main文件 统一format文件&#10;&#10;fix: 1. 移除main文件 统一format文件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/con/mloine/ch2/Test.java</url>
-          <line>20</line>
+          <line>21</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
