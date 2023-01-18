@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f8b758a-b996-41c2-978e-623c5f093d0a" name="Changes" comment="fix: 1. 移除main文件 统一format文件&#10;&#10;fix: 1. 移除main文件 统一format文件">
-      <change afterPath="$PROJECT_DIR$/src/main/java/con/mloine/ch2/ShellSort.java" afterDir="false" />
+    <list default="true" id="7f8b758a-b996-41c2-978e-623c5f093d0a" name="Changes" comment="fix: 1. 希尔排序 可用于中型数量级别的大小排序 插入排序的变种&#10;&#10;1. 希尔排序 可用于中型数量级别的大小排序 插入排序的变种">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/con/mloine/ch2/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/con/mloine/ch2/InsertionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/con/mloine/ch2/SortCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/con/mloine/ch2/SortCompare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/con/mloine/ch2/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/con/mloine/ch2/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +170,7 @@
       <option name="presentableId" value="Default" />
       <updated>1673795316730</updated>
       <workItem from="1673795318019" duration="990000" />
-      <workItem from="1673796326502" duration="31773000" />
+      <workItem from="1673796326502" duration="32506000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 1.初始化仓库&#10;&#10;1.初始化仓库">
       <created>1673795596364</created>
@@ -266,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674047189777</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="fix: 1. 希尔排序 可用于中型数量级别的大小排序 插入排序的变种&#10;&#10;1. 希尔排序 可用于中型数量级别的大小排序 插入排序的变种">
+      <created>1674051884998</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1674051884998</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,7 +287,8 @@
     <MESSAGE value="feat: 1. 选择排序实现&#10;&#10;1. 选择排序实现" />
     <MESSAGE value="feat: 1. 插入排序实现 并提供不同排序的耗时比较&#10;&#10;1.插入排序实现 并提供不同排序的耗时比较" />
     <MESSAGE value="fix: 1. 移除main文件 统一format文件&#10;&#10;fix: 1. 移除main文件 统一format文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: 1. 移除main文件 统一format文件&#10;&#10;fix: 1. 移除main文件 统一format文件" />
+    <MESSAGE value="fix: 1. 希尔排序 可用于中型数量级别的大小排序 插入排序的变种&#10;&#10;1. 希尔排序 可用于中型数量级别的大小排序 插入排序的变种" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: 1. 希尔排序 可用于中型数量级别的大小排序 插入排序的变种&#10;&#10;1. 希尔排序 可用于中型数量级别的大小排序 插入排序的变种" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

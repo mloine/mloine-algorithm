@@ -9,7 +9,7 @@ import java.util.function.Consumer;
 /**
  * @Author: mloine
  * @Date: 2023-01-18-20:11
- * @Description:
+ * @Description: 验证排序算法效率对比工具类
  */
 public class SortCompare {
 
