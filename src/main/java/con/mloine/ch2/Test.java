@@ -17,7 +17,9 @@ public class Test {
 
         //st = new SelectionSort();
         //st = new InsertionSort();
-        st = new ShellSort();
+        //st = new ShellSort();
+        //st = new MergeSort();
+        st = new MergeBUSort();
 
         st.sort(a);
         st.show(a);

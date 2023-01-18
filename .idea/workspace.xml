@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f8b758a-b996-41c2-978e-623c5f093d0a" name="Changes" comment="fix: 1. 希尔排序 可用于中型数量级别的大小排序 插入排序的变种&#10;&#10;1. 希尔排序 可用于中型数量级别的大小排序 插入排序的变种">
+      <change afterPath="$PROJECT_DIR$/src/main/java/con/mloine/ch2/MergeBUSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/con/mloine/ch2/MergeBaseSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/con/mloine/ch2/MergeSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/con/mloine/ch2/SortCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/con/mloine/ch2/SortCompare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/con/mloine/ch2/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/con/mloine/ch2/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +174,7 @@
       <option name="presentableId" value="Default" />
       <updated>1673795316730</updated>
       <workItem from="1673795318019" duration="990000" />
-      <workItem from="1673796326502" duration="32506000" />
+      <workItem from="1673796326502" duration="36946000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 1.初始化仓库&#10;&#10;1.初始化仓库">
       <created>1673795596364</created>
@@ -270,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674051884998</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="fix: 1. 希尔排序 可用于中型数量级别的大小排序 插入排序的变种&#10;&#10;1. 希尔排序 可用于中型数量级别的大小排序 插入排序的变种">
+      <created>1674051923367</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1674051923367</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,8 +306,23 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/con/mloine/ch2/Test.java</url>
-          <line>21</line>
+          <line>23</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/con/mloine/ch2/MergeBaseSort.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/con/mloine/ch2/SortCompare.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/con/mloine/ch2/SortCompare.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

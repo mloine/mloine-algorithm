@@ -17,6 +17,8 @@ public class SortCompare {
         put("Selection", new SortConsumer(new SelectionSort()));
         put("Insertion", new SortConsumer(new InsertionSort()));
         put("Shell", new SortConsumer(new ShellSort()));
+        put("Merge", new SortConsumer(new MergeSort()));
+        put("MergeBU", new SortConsumer(new MergeBUSort()));
     }};
 
 
@@ -65,10 +67,13 @@ public class SortCompare {
     public static void main(String[] args) {
 
         //String alg1 = "Selection";
-        String alg1 = "Shell";
-        String alg2 = "Insertion";
+        //String alg1 = "Shell";
+        String alg1 = "Merge";
+        //String alg2 = "Insertion";
+        //String alg2 = "Shell";
+        String alg2 = "MergeBU";
         int N = 1000000;
-        int T = 1;
+        int T = 100;
 
         double t1 = timeRandomInput(alg1, N, T);
         double t2 = timeRandomInput(alg2, N, T);
