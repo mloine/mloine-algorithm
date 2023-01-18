@@ -15,7 +15,8 @@ public class Test {
 
         AbstractSort st;
 
-        st = new SelectionSort();
+        //st = new SelectionSort();
+        st = new InsertionSort();
 
         st.sort(a);
 
