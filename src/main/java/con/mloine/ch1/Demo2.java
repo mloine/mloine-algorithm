@@ -10,9 +10,8 @@ import java.util.Arrays;
 public class Demo2 {
 
     /**
-     *
      * @param key 输入数字
-     * @param a 查询数组要求实现完成排序 ASC升序
+     * @param a   查询数组要求实现完成排序 ASC升序
      * @return 命中元素的数组下标
      */
     public static int rank(int key, int[] a) {

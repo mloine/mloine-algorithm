@@ -19,6 +19,7 @@ public abstract class AbstractUF {
     /**
      * 再 p 和 q之间 连接一条线
      * 如果 p q 不在同一个分量则归并两个分量
+     *
      * @param p
      * @param q
      */
