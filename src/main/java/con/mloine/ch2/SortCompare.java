@@ -19,6 +19,7 @@ public class SortCompare {
         put("Shell", new SortConsumer(new ShellSort()));
         put("Merge", new SortConsumer(new MergeSort()));
         put("MergeBU", new SortConsumer(new MergeBUSort()));
+        put("Quick", new SortConsumer(new QuickSort()));
     }};
 
 
@@ -68,7 +69,8 @@ public class SortCompare {
 
         //String alg1 = "Selection";
         //String alg1 = "Shell";
-        String alg1 = "Merge";
+        //String alg1 = "Merge";
+        String alg1 = "Quick";
         //String alg2 = "Insertion";
         //String alg2 = "Shell";
         String alg2 = "MergeBU";
