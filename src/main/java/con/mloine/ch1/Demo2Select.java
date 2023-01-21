@@ -7,7 +7,7 @@ import java.util.Arrays;
  * @Date: 2023-01-15-23:58
  * @Description: 二分查找
  */
-public class Demo2 {
+public class Demo2Select {
 
     /**
      * @param key 输入数字
