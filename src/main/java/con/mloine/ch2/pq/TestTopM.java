@@ -12,7 +12,7 @@ public class TestTopM {
     public static void main(String[] args) {
         Random rd = new Random();
         int M = 10;
-        int inputLine = 10000;
+        int inputLine = 1000000;
         AbstractMaxPQ<Double> pg = new BaseMaxPQ<Double>(M + 1);
 
         for (int i = 0; i < inputLine; i++) {

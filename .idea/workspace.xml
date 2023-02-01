@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f8b758a-b996-41c2-978e-623c5f093d0a" name="Changes" comment="fix: 1. 快速排序&#10;&#10;1. 快速排序">
-      <change afterPath="$PROJECT_DIR$/src/main/java/con/mloine/ch2/pq/AbstractMaxPQ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/con/mloine/ch2/pq/BaseMaxPQ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/con/mloine/ch2/pq/TestTopM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/con/mloine/ch2/pq/readme.md" afterDir="false" />
+    <list default="true" id="7f8b758a-b996-41c2-978e-623c5f093d0a" name="Changes" comment="fix: 1. 优先队列API&#10;&#10;1. 优先队列API">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/con/mloine/ch1/Demo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/con/mloine/ch1/Demo2Select.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/con/mloine/ch2/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/con/mloine/ch2/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/con/mloine/ch2/pq/AbstractMaxPQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/con/mloine/ch2/pq/AbstractMaxPQ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/con/mloine/ch2/pq/BaseMaxPQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/con/mloine/ch2/pq/BaseMaxPQ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/con/mloine/ch2/pq/TestTopM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/con/mloine/ch2/pq/TestTopM.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,21 +65,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.sourceCode.Java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="con.mloine.ch2" />
@@ -88,7 +87,7 @@
       <recent name="con.mloine.ch1.sdt" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SortCompare">
+  <component name="RunManager" selected="Application.TestTopM">
     <configuration name="SortCompare (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="con.mloine.ch2.SortCompare" />
       <module name="mloine-algorithm" />
@@ -128,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="con.mloine.ch1.unionfind.UF" />
+    <configuration name="TestTopM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="con.mloine.ch2.pq.TestTopM" />
       <module name="mloine-algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="con.mloine.ch1.unionfind.*" />
+          <option name="PATTERN" value="con.mloine.ch2.pq.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SortCompare" />
+        <item itemvalue="Application.TestTopM" />
         <item itemvalue="Application.con.mloine.ch2.Test" />
+        <item itemvalue="Application.SortCompare" />
         <item itemvalue="Application.SortCompare (1)" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.UF" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +173,9 @@
       <option name="presentableId" value="Default" />
       <updated>1673795316730</updated>
       <workItem from="1673795318019" duration="990000" />
-      <workItem from="1673796326502" duration="44761000" />
+      <workItem from="1673796326502" duration="45041000" />
+      <workItem from="1674797885437" duration="609000" />
+      <workItem from="1675003936383" duration="5574000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 1.初始化仓库&#10;&#10;1.初始化仓库">
       <created>1673795596364</created>
@@ -295,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674136598959</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="fix: 1. 优先队列API&#10;&#10;1. 优先队列API">
+      <created>1674301104692</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1674301104692</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,7 +323,8 @@
     <MESSAGE value="fix: 1. 希尔排序 可用于中型数量级别的大小排序 插入排序的变种&#10;&#10;1. 希尔排序 可用于中型数量级别的大小排序 插入排序的变种" />
     <MESSAGE value="fix: 1. 归并排序 复杂度为线性对数级 并使用了分治思想&#10;&#10;1. 归并排序 复杂度为线性对数级 并使用了分治思想" />
     <MESSAGE value="fix: 1. 快速排序&#10;&#10;1. 快速排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: 1. 快速排序&#10;&#10;1. 快速排序" />
+    <MESSAGE value="fix: 1. 优先队列API&#10;&#10;1. 优先队列API" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: 1. 优先队列API&#10;&#10;1. 优先队列API" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -339,6 +348,20 @@
           <url>file://$PROJECT_DIR$/src/main/java/con/mloine/ch2/SortCompare.java</url>
           <line>50</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/con/mloine/ch2/BaseSort.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/con/mloine/ch2/pq/BaseMaxPQ.java</url>
+          <line>30</line>
+          <properties class="con.mloine.ch2.pq.BaseMaxPQ" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -15,15 +15,15 @@ public class Test {
 
         AbstractSort st;
 
-        //st = new SelectionSort();
+        st = new SelectionSort();
         //st = new InsertionSort();
         //st = new ShellSort();
         //st = new MergeSort();
         //st = new MergeBUSort();
-        st = new QuickSort();
+        //st = new QuickSort();
 
         st.sort(a);
-        st.show(a);
+        //st.show(a);
 
         assert st.isSorted(a);
 
