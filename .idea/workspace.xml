@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f8b758a-b996-41c2-978e-623c5f093d0a" name="Changes" comment="feat: 1. 优先队列的实现 基于数组的堆结构&#10;&#10;1. 优先队列的实现 基于数组的堆结构">
-      <change afterPath="$PROJECT_DIR$/src/main/java/con/mloine/ch2/HeapSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/con/mloine/ch3/AbstractST.java" afterDir="false" />
+    <list default="true" id="7f8b758a-b996-41c2-978e-623c5f093d0a" name="Changes" comment="feat: 1. 堆排序的初级实现 内部存在BUG需要fix&#10;&#10;1. 堆排序的初级实现 内部存在BUG需要fix">
+      <change afterPath="$PROJECT_DIR$/src/main/java/con/mloine/ch3/AbstractSortST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/con/mloine/ch3/BaseST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/con/mloine/ch3/BaseSortST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/con/mloine/ch3/FrequencyCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/con/mloine/ch3/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/con/mloine/ch2/SortCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/con/mloine/ch2/SortCompare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/con/mloine/ch2/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/con/mloine/ch2/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/con/mloine/ch2/pq/BaseMaxPQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/con/mloine/ch2/pq/BaseMaxPQ.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,12 +83,13 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="con.mloine.ch3" />
       <recent name="con.mloine.ch2" />
       <recent name="con.mloine.ch1.unionfind" />
       <recent name="con.mloine.ch1.sdt" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SortCompare">
+  <component name="RunManager" selected="Application.con.mloine.ch3.Test">
     <configuration name="SortCompare (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="con.mloine.ch2.SortCompare" />
       <module name="mloine-algorithm" />
@@ -108,19 +109,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="con.mloine.ch2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="con.mloine.ch1.unionfind.Test" />
-      <module name="mloine-algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="con.mloine.ch1.unionfind.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,13 +143,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="con.mloine.ch3.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="con.mloine.ch3.Test" />
+      <module name="mloine-algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="con.mloine.ch3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.con.mloine.ch3.Test" />
         <item itemvalue="Application.SortCompare" />
         <item itemvalue="Application.con.mloine.ch2.Test" />
         <item itemvalue="Application.TestTopM" />
         <item itemvalue="Application.SortCompare (1)" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +178,7 @@
       <workItem from="1673796326502" duration="45041000" />
       <workItem from="1674797885437" duration="609000" />
       <workItem from="1675003936383" duration="10784000" />
-      <workItem from="1675410348978" duration="384000" />
+      <workItem from="1675410348978" duration="5167000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 1.初始化仓库&#10;&#10;1.初始化仓库">
       <created>1673795596364</created>
@@ -312,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675245038792</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="feat: 1. 堆排序的初级实现 内部存在BUG需要fix&#10;&#10;1. 堆排序的初级实现 内部存在BUG需要fix">
+      <created>1675410764211</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1675410764211</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,7 +342,8 @@
     <MESSAGE value="fix: 1. 快速排序&#10;&#10;1. 快速排序" />
     <MESSAGE value="fix: 1. 优先队列API&#10;&#10;1. 优先队列API" />
     <MESSAGE value="feat: 1. 优先队列的实现 基于数组的堆结构&#10;&#10;1. 优先队列的实现 基于数组的堆结构" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 1. 优先队列的实现 基于数组的堆结构&#10;&#10;1. 优先队列的实现 基于数组的堆结构" />
+    <MESSAGE value="feat: 1. 堆排序的初级实现 内部存在BUG需要fix&#10;&#10;1. 堆排序的初级实现 内部存在BUG需要fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 1. 堆排序的初级实现 内部存在BUG需要fix&#10;&#10;1. 堆排序的初级实现 内部存在BUG需要fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
