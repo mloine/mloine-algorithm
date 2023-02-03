@@ -20,6 +20,8 @@ public class SortCompare {
         put("Merge", new SortConsumer(new MergeSort()));
         put("MergeBU", new SortConsumer(new MergeBUSort()));
         put("Quick", new SortConsumer(new QuickSort()));
+        // fixme
+        put("Heap", new SortConsumer(new HeapSort()));
     }};
 
 
@@ -73,7 +75,8 @@ public class SortCompare {
         String alg1 = "Quick";
         //String alg2 = "Insertion";
         //String alg2 = "Shell";
-        String alg2 = "MergeBU";
+        //String alg2 = "MergeBU";
+        String alg2 = "Heap";
         int N = 1000000;
         int T = 100;
 

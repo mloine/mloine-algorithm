@@ -33,7 +33,7 @@ public class BaseMaxPQ<Key extends Comparable<Key>> extends AbstractMaxPQ<Key> {
     }
 
     @Override
-    void insert(Key v) {
+    public void insert(Key v) {
         pq[++N] = v;
         swim(N);
     }
@@ -44,7 +44,7 @@ public class BaseMaxPQ<Key extends Comparable<Key>> extends AbstractMaxPQ<Key> {
     }
 
     @Override
-    Key delMax() {
+    public Key delMax() {
         // 获取头部元素
         Key max = pq[1];
         // 移动尾部元素到头部
